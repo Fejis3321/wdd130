@@ -1,3 +1,11 @@
+:root {
+    --heading-background-color: #f06;
+    --heading-text-color: #333
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -13,6 +21,9 @@ h1 {
 	text-align: center;
 	font-size: 1.5rem;
 	text-shadow: 3px 3px 5px #777;
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
+    border: var(--border);
 }
 
 .herodiv {

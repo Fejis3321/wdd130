@@ -1,3 +1,11 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -43,6 +51,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    
 }
 
 p {
@@ -58,3 +67,13 @@ footer {
 main {
     max-width: 840px;
 }
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
