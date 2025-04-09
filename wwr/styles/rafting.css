@@ -97,5 +97,66 @@ article {
 }
 
 
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.figure_flex {
+    display: flex;
+}
+
+figure img {
+    width: 160px;
+}
+
+figure {
+    margin: 4px;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding);
+    background-color: var(--main-bg-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--padding);
+    border-bottom: var(--border);
+    background-color: var(--ascent2);
+}
+.logo img {
+    width: 150px;
+    height: auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 1rem;
+	margin: 1rem;
+	padding: 0.5rem;
+	background-color: #bbb;
+    flex-wrap: wrap;
+}
+nav li {
+    flex: none;
+}
 
 
