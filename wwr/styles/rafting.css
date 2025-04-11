@@ -146,17 +146,64 @@ header {
     height: auto;
 }
 nav ul {
-    display: flex;
-    list-style: none;
+    display: grid;
     margin: 0;
     gap: 1rem;
-	margin: 1rem;
-	padding: 0.5rem;
-	background-color: #bbb;
-    flex-wrap: wrap;
-}
-nav li {
-    flex: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: whitesmoke;
+	
 }
 
+#contact1 {
+    text-align: center;
+}
+
+#team, h2 {
+    text-align: center;
+}
+
+#form {
+    font-family: "IBM Plex Serif", Georgia;
+    font-size: 1em;
+    color: var(--primary-color);
+    background: #fff;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--ascent2);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
 

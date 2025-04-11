@@ -68,8 +68,8 @@ input, select, textarea {
 }
 
 input[type="checkbox"] {
-    width: 22px;
-    height: 22px;
+    width: 10px;
+    height: 10px;
     vertical-align: bottom;
 }
 
