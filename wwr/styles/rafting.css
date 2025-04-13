@@ -35,10 +35,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-family: var(--primary-color)
-}
-
 footer {
 	position: relative;
 	bottom: 0;
@@ -250,8 +246,6 @@ button:hover {
 
 .cta {
     text-align: center;
-    margin-top: px;
-    float: center;
 
 }
 
@@ -272,7 +266,6 @@ button:hover {
 }
 
 p {
-    font-size: small;
-
+    font-size: medium;
 }
 
