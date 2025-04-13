@@ -1,31 +1,90 @@
-.callout {
-	max-width: 400px;
-	margin: 10px;
-	border: 1px solid rgba(0,0,0,.1);
-	padding: 15px;
-	background-color: #247;
-	color: #fff;
-}
-
-.callout img {
-	float: right;
-	margin: 0 0 10px 15px;
-	border: 1px solid #000;
-	padding: 3px;
-	background-color: #bbb;
-	width: 100px;
-	height: auto;
-	
-}
-
-blockquote {
+body {
 	margin: 0;
-}
-
-cite {
-	display: block;
-	border-top: 1px dotted #fff;
-	padding-top: 3px;
-	text-align: right;
-	font-size: smaller;
-}
+	font-family: 'Segoe UI', sans-serif;
+	background-color: #f1f9f9;
+	color: #333;
+  }
+  header {
+	background: whitesmoke;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: blueviolet;
+	text-align: center;
+  }
+  header h1 {
+	font-size: 4em;
+	margin: 0;
+  }
+  header p {
+	font-size: 1.5em;
+	margin-top: 10px;
+  }
+  nav {
+	background-color: #005f73;
+	padding: 15px 20px;
+	text-align: center;
+  }
+  nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+	font-weight: bold;
+  }
+  section {
+	padding: 60px 20px;
+	max-width: 1100px;
+	margin: auto;
+  }
+  .intro {
+	text-align: center;
+  }
+  .trips {
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+  .trip-card {
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+	overflow: hidden;
+	max-width: 300px;
+  }
+  .trip-card img {
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+  }
+  .trip-card .content {
+	padding: 20px;
+  }
+  .testimonial {
+	background-color: #e0fbfc;
+	border-left: 5px solid #3d5a80;
+	padding: 20px;
+	margin: 20px 0;
+  }
+  .cta {
+	text-align: center;
+	margin-top: 40px;
+  }
+  .cta button {
+	background-color: #008891;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	font-size: 1em;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  footer {
+	background-color: #005f73;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 60px;
+  }
