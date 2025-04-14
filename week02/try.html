@@ -1,16 +1,72 @@
-<h1>Block vs. Inline Elements</h1>
-<aside>Some basic styling has been applied in order to illustrate the elements structure and boundaries.</aside>
-<p>A paragraph &lt;p&gt; element (block) with a <span>&lt;span&gt; element (inline)</span></p>
-<div>A divider &lt;div&gt; element (block). <strong>2️⃣ switch me to a &lt;p&gt;to see differences if any</strong>
-	<div>Paragraph &lt;p&gt; element (block): <strong>1️⃣ change this paragraph tag to a &lt;div&gt; to see differences if any</strong></p>
-</div>
-<main>
-	<h2>A main element</h2>
-	<img src="https://picsum.photos/100/200" alt="placeholder image (images are inline)" width="100" height="200">
-	<a href="https://churchofjesuschrist.org">The Church &lt;a&gt; anchor element (inline)</a>
-	<button type="button">A button element (inline)</button>
-</main>
+</head>
+<body>
 
-<footer>A footer element (block)</footer>
+  <header>
+    <h1>White Water Rafting Adventures</h1>
+    <p>Experience the thrill of nature with guided rafting tours!</p>
+  </header>
 
-<footer>A footer element</footer>
+  <nav>
+    <a href="#trips">Trips</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="trips">
+    <h2>Our Trips</h2>
+    <p>Join us on one of our thrilling white water rafting adventures. Whether you're a beginner or a seasoned rafter, we have a trip for you!</p>
+    <ul>
+      <li>Fun Floating kids - 3 hours</li>
+      <li>Stormy Water Rush - 5 hours</li>
+      <li>Expedition Adventure - 10 hours</li>
+    </ul>
+  </section>
+
+  <section id="pricing">
+    <h2>Our Pricing</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <tr>
+        <th>Trip</th>
+        <th>Duration</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Fun Floating kids</td>
+        <td>3 Hours</td>
+        <td>$20 per kid</td>
+      </tr>
+      <tr>
+        <td>Stormy Water Rush</td>
+        <td>5 Hours</td>
+        <td>$100 per adult</td>
+      </tr>
+      <tr>
+        <td>Expedition Adventure</td>
+        <td>10 Hours</td>
+        <td>$200 per adult</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <label for="name">Name:</label><br/>
+      <input type="text" id="name" name="name" required><br/>
+      
+      <label for="email">Email:</label><br/>
+      <input type="email" id="email" name="email" required><br/>
+      
+      <label for="message">Message:</label><br/>
+      <textarea id="message" name="message" rows="4" required></textarea><br/>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 White Water Rafting Adventures | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

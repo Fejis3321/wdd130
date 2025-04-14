@@ -14,14 +14,20 @@
 <body>
     <header>
             <img src="images/logo.jpeg" alt="Rafting Website Logo">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home Page</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="trips.html">Trips</a></li>
-                        <li><a href="contact.html">Our Contact</a></li>
-                    </ul>  
-                </nav>
+            <nav>
+                <div class="home">
+                    <a href="index.html">Home Page</a>
+                </div>
+                <div class="home">
+                    <a href="about.html">About us</a>
+                </div>
+                <div class="home">
+                    <a href="trips.html">Trips</a>
+                </div>
+                <div class="home">
+                <a href="contact.html">Our Contact</a> 
+                </div> 
+            </nav>
     </header>
     <main>
         <div class="hero">
@@ -32,8 +38,68 @@
                 <p>Mission: To serve you the best service.</p>
             </article>
         </div>
-        <div class="trips">
+        <section class="amazon">
+            <h2>Our Trip Features</h2>
+            <div class="adventure">
+                <div class="river">
+                    <img src="images/childrenrafting.webp" alt="Kids Rafting Trip">
+                    <div class="content">
+                        <h3>Fun Floating kids</h3>
+                        <p>Rafting adventure suitable for kids. Smooth trips with water-splash excitement!</p>
+                    </div>
+                </div>
+                <div class="river">
+                    <img src="images/rapidrafting.webp" alt="Rafting for Adults">
+                    <div class="content">
+                        <h3>Stormy Water Rush!</h3>
+                        <p>Rapid water rush! A true adrenalin pumping experience!</p>
+                    </div>
+                </div>
+                <div class="river">
+                    <img src="images/forest rafting.webp" alt="Extremely Adventorious Rafting Trip for Adults">
+                    <div class="content">
+                        <h3>Expedition Adventure!</h3>
+                        <p>Raft on as our rivers flow through the mountains and through the forests</p>
+                    </div>
+            </div>
+        </section>
+        <section id="trips">
+            <h2>Check out our Pricing</h2>
+            <p>Signup today to make your rafting exprience truly memorable!</p>
+            <ul id="fun">
+                <li>Fun floating Kids  - 3 hours</li>
+                <li>Stormy Water Rush  - 5 hours</li>
+                <li>Expedition Adventure - 10 hours</li>
+            </ul>
+        </section>
+        <section id="pricing">
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <th>Trips</th>
+                    <th>Duration</th>
+                    <th>Prices</th>
+                </tr>
+                <tr>
+                    <td>Fun Floating Kids</td>
+                    <td>3 hours</td>
+                    <td>$20 per kid</td>
+                </tr>
+                <tr>
+                    <td>Stormy Water Rush</td>
+                    <td>5 hours</td>
+                    <td>$100 per adult</td>
+                </tr>
+                <tr>
+                    <td>Expedition Adventure</td>
+                    <td>10 hours</td>
+                    <td>$200 per adult</td>
+                </tr>
+            </table>
             
+        </section>
+        <div class="ready1">
+            <h2>Are you ready to book your trip?</h2>
+            <button onclick="window.location.href='contact.html'">Contact Us Now</button>
         </div>
     </main>
     <footer>
